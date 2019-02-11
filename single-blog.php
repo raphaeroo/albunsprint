@@ -60,7 +60,7 @@
             <ul class="list-group list-group-flush">
         <?php
             $args = array( 
-                'post_type' => 'informacoes', 
+                'post_type' => 'blog', 
                 'posts_per_page' => 150, 
                 'order' => 'asc', 
                 'orderby' => 'date' 
@@ -92,7 +92,7 @@
           
       <?php
             $args = array( 
-                'post_type' => 'informacoes', 
+                'post_type' => 'blog', 
                 'posts_per_page' => 4, 
                 'order' => 'asc', 
                 'orderby' => 'rand' 
